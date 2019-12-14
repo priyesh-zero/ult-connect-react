@@ -1,0 +1,99 @@
+@import '../../styles/mixins';
+
+.topbar-topbar {
+}
+.topbar-container {
+  height: 100%;
+  width: 100%;
+}
+.topbar-dropdown-section {
+  background-color: rgba(255, 255, 255, 1);
+  width: 90%;
+  height: 100%;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar-dropdown-section:after {
+  color: rgba(255, 255, 255, 1);
+  border-left: 20px solid;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  right: -20px;
+}
+.topbar-select-text {
+  font-family: 'Lato-SemiBold';
+  padding-left: 5px;
+}
+.topbar-branch-select {
+  width: 85%;
+}
+.topbar-stats-area {
+  cursor:pointer;
+  height: 100%;
+  padding:0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.topbar-stats-div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.topbar-stats-text {
+  font-family: 'Lato-Heavy';
+  font-size: 13px;
+  color: #000;
+}
+.topbar-stats-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Lato-Heavy';
+  color: rgba(58, 120, 233, 1);
+  border: 3px solid rgba(58, 120, 233, 1);
+}
+.topbar-profile-section {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.topbar-profile-phone {
+  background-color: rgba(58, 120, 233, 1);
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  align-items: center;
+}
+.topbar-profile-avatar {
+  height: 70px;
+  width: 70px;
+}
+.topbar-profile-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topbar-profile-name {
+  font-family: Lato;
+  font-size: 18px;
+  text-align: center;
+}
+.topbar-profile-section-icon {
+  padding-top: 5px;
+}

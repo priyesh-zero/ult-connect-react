@@ -1,0 +1,1 @@
+export const MESSAGES_GET_CHAT = 'MESSAGES_GET_CHAT';

@@ -1,0 +1,366 @@
+* {
+  font-family: Lato;
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.tabs .MuiButton-contained {
+  box-shadow: none;
+  border-radius: 0px;
+  background: #F5F8FE;
+}
+
+.tabs .MuiButton-containedPrimary {
+  background: #3A78E9;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.MuiBox-root{
+  display: flex;
+  height: 100%;
+}
+
+.topbar {
+    background:  #11264B;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.MuiTypography-h6 {
+
+    font-size: 1rem !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bolder !important;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}
+
+.MuiChip-root.selectedChip {
+  background-color: #fff !important;
+  color: #356FD7 !important;
+}
+
+.topbar .num {
+  background: #fff;
+  border-radius: 50%;
+  color: #11264B;
+  padding: 10px 5px;
+}
+
+.MuiBox-root > div {
+  width: 100%;
+}
+
+.tab .MuiBox-root {
+  min-height: 235px;
+}
+
+.MuiBox-root> .cards{
+  height: 100%;
+  overflow: auto;
+}
+
+.MuiCardContent-root {
+
+    background: #F5F8FE;
+
+}
+
+.MuiBox-root .noteTab {
+  padding: 10px;
+}
+.MuiBox-root > .noteTab .MuiTextField-root {
+  width: 100%;
+}
+
+.MuiBox-root .noteTab button {
+  background: #3A78E9;
+  border-radius: 20px;
+  float: right;
+}
+
+.MuiPaper-root.MuiPaper-elevation1.MuiCard-root.MuiPaper-rounded {
+    margin: 10px;
+}
+
+.MuiCardContent-root h2 {
+  text-transform: uppercase;
+  color: #3A78E9;
+}
+
+.leftPaper {
+  display: grid;
+  grid-template-rows: repeat(6, auto) 235px;
+  overflow: auto;
+}
+
+/* .MuiTypography-root.MuiTypography-body1 */
+#subTopBar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+.MuiTypography-root.MuiTypography-body1 label .recordText {
+  color: red;
+}
+
+.MuiTypography-root.MuiTypography-body1 label .recordText span {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.MuiButtonBase-root.MuiChip-root.MuiChip-colorPrimary.MuiChip-clickableColorPrimary.MuiChip-clickable {
+  color: #FFFFFF;
+  background: #3A78E9;
+}
+
+.recordDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #80A3EF;
+}
+
+.recordContainer {
+  background-color: #3A78E9;
+  padding: 10px;
+}
+
+.recordContainer .MuiButtonBase-root.MuiChip-root.MuiChip-colorPrimary.MuiChip-clickableColorPrimary.MuiChip-clickable{
+  background: #80A3EF;
+}
+
+.recordDiv .timer {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #80A3EF
+}
+
+.recordDiv > div {
+  margin: auto 10px;
+  text-align: center;
+}
+
+.recordDiv > div > button {
+  background: #FFF;
+  color: black;
+}
+
+.recordDiv > div > button[aria-label="success"] {
+  color: #FFF;
+  background: #67C93C
+}
+
+.recordDiv > div > label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.statusContainer {
+  display: flex;
+  background: #356FD7;
+  padding: 10px;
+}
+
+.statusContainer > div {
+  width: 120%;
+}
+
+.statusInput {
+  width: 80% !important;
+}
+
+.statusInput .MuiFormControl-root {
+  width: 70%;
+  background-color: #DDD;
+}
+
+.statusOptions .MuiButtonBase-root.MuiChip-root.MuiChip-colorPrimary.MuiChip-clickableColorPrimary.MuiChip-clickable {
+  border: 1px solid #FFF;
+  background: transparent;
+  margin: 5px;
+}
+
+.infoContainer {
+  padding: 10px;
+  background: #3A78E9;
+}
+
+.infoContainer .MuiTable-root {
+  background:#FFF;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.infoContainer .MuiTable-root .MuiTableHead-root {
+  background: #11264B;
+  color: #FFF;
+}
+
+.infoContainer .MuiTable-root tr th {
+  color: #FFF;
+  font-weight: 600;
+  text-align: center;
+}
+
+.infoContainer .MuiTable-root tr td {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.MuiTypography-root.MuiTypography-h4 {
+  font-size: 1.8rem !important;
+}
+
+.contactCard {
+  padding: 20px;
+  display: flex;
+}
+
+.contactCard .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactCard .avatar .MuiAvatar-root.MuiAvatar-circle.MuiAvatar-colorDefault {
+  width: 125px;
+  height: 125px;
+  background: #FFF;
+  color: #000;
+  font-size: 3rem;
+  box-shadow: 0px 1px 10px #888;
+}
+
+.contactCard .info {
+  padding: 15px;
+  color: #888;
+  width: 100%;
+}
+
+.contactCard .info > div {
+  padding: 10px;
+  padding-left: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactCard .info > div span {
+  font-weight: bold;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.contactCard .info > div .head {
+  color: #3A78E9
+}
+
+.contactInfo {
+  display: flex;
+  align-items: baseline;
+  padding: 10px;
+  background: #f9f9fa;
+}
+
+.contactInfo > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactInfo > div span {
+  padding: 10px;
+}
+
+.contactInfo > div:nth-child(1) {
+  border-right: 1px solid #CCC;
+}
+
+.contactInfo > div .head {
+  color: #3A78E9;
+  font-weight: bold;
+}
+
+#checkLeadButton {
+  background: #3A78E9;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.MuiAppBar-colorPrimary {
+
+    color: #fff;
+
+    background-color: transparent;
+    box-shadow: none !important;
+
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
+
+    background:
+
+#F5F8FE;
+
+margin: 5px 5px;
+
+color:
+
+    #000;
+    font-weight: bolder;
+    opacity: 1;
+
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected {
+  background:
+#3A78E9;
+
+color:
+#fff;
+}
+
+.MuiTabs-indicator {
+  display: none;
+}
+
+.MuiAppBar-root {
+  background: transparent !important;
+}
+
+.MuiTab-root {
+  min-width: 102px !important;
+}
+
+.tab.contact .MuiBox-root {
+  display: block !important;
+}
+
+#previewNextCallButton {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-100%, -100%);
+  color: #FFF;
+  background: #67C93C
+}
